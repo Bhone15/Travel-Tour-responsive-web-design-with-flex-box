@@ -3,16 +3,16 @@
 
 /*css variable*/
 :root {
-  --primaryColor: #3fd0d4;
+  --primaryColor: #0c82e2;
   --mainWhite: #fff;
   --offWhite: #f7f7f7;
-  --mainBlack: #222;
+  --mainBlack: rgb(107, 60, 102);
   --mainGrey: #e3e3e3;
-  --darkGrey: #afafaf;
-  --mainTransition: all 0.3s linear;
-  --mainSpacing: 0.25rem;
-  --lightShadow: 2px 5px 3px 0 rgba(0, 0, 0, 0.25);
-  --darkShadow: 4px 10px 5px 0 rgba(0, 0, 0, 0.5);
+  --darkGrey: #888080;
+  --mainTransition: all 0.2s linear;
+  --mainSpacing: 0.1rem;
+  --lightShadow: 2px 5px 3px 0 rgba(43, 32, 32, 0.25);
+  --darkShadow: 4px 10px 5px 0 rgba(12, 7, 7, 0.5);
 }
 
 *,
@@ -183,6 +183,7 @@ a {
   color: var(--primaryColor);
   background: var(--darkGrey);
   padding-left: 2.5rem;
+  transform: translateY(-20%);
 }
 
 @media screen and (min-width: 992px) {
@@ -422,6 +423,7 @@ a {
 
 .tour-card:hover {
   box-shadow: var(--darkShadow);
+  transform: translateY(-3%);
 }
 
 .tour-img-container {
@@ -612,6 +614,7 @@ a {
 
 .footer-link:hover {
   color: var(--primaryColor);
+  transform: translateY(-20%);
 }
 
 .footer-icon {
