@@ -437,6 +437,7 @@ a {
   background: var(--primaryColor);
   text-transform: capitalize;
   padding: 0.25rem 0.5rem;
+  color: white;
 }
 
 .tour-footer {
